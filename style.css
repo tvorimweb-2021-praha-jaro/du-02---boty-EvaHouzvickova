@@ -45,6 +45,7 @@ body {
 .vizual {
     width: 335px;
     background: linear-gradient(#06d7c1, #50cc49 );
+    padding: 30px;
 
 }
 
@@ -52,18 +53,21 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
+    margin-top: 30px;
 }
 
 .cena {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 28px;
+    text-align: right;
 }
 
 .zaruka {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 12px;
+    text-align: right;
 }
 
 .nazev {
@@ -112,4 +116,10 @@ ul {
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.bota img {
+    position: relative;
+    right: 120px;
+    top: 50px;
 }
