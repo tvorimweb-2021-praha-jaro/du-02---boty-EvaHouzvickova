@@ -25,3 +25,91 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Rubik', 'Sans-serif';
+}
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    margin: auto;
+}
+
+.detaily {
+    width: 335px;
+    float: right;
+}
+
+.vizual {
+    width: 335px;
+    background: linear-gradient(#06d7c1, #50cc49 );
+
+}
+
+.slogan {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cena {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.zaruka {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.nazev {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popis {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.parametr {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.velikosti li {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.akce {
+    background-color: #f15f42 ; 
+    border-radius: 30%;
+}
+.tlacitko {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
