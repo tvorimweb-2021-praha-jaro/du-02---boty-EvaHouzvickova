@@ -32,21 +32,30 @@ body {
 }
 
 .zbozi {
-    width: 670px;
+    max-width: 670px;
     height: 440px;
     margin: auto;
+    box-shadow: 3px 3px 10px 5px #c0c0c037;
+    border-radius: 15px;
+    margin-top: 100px;
 }
 
 .detaily {
     width: 335px;
-    float: right;
+    height: 440px;
+    padding: 30px;
+    float: left;
+    background-color: #FFFFFF;
+    border-radius: 0 15px 15px 0;
 }
 
 .vizual {
     width: 335px;
+    height: 440px;
     background: linear-gradient(#06d7c1, #50cc49 );
     padding: 30px;
-
+    float: left;
+    border-radius: 15px 0 0 15px;
 }
 
 .slogan {
@@ -56,18 +65,19 @@ body {
     margin-top: 30px;
 }
 
-.cena {
+.cenovka {
+    text-align: right;
     color: #FFFFFF;
+    margin-top: -75px;
+}
+.cena {
     font-weight: 500;
     font-size: 28px;
-    text-align: right;
 }
 
 .zaruka {
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 12px;
-    text-align: right;
 }
 
 .nazev {
@@ -75,6 +85,10 @@ body {
     font-weight: 500;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+h1 {
+    margin-top: -3px;
 }
 
 .produkt {
@@ -86,17 +100,20 @@ body {
 .popis {
     font-weight: 400;
     font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #06d7c1;
+    margin-top: 30px;
 }
 
 .parametr {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 ul {
     list-style-type: none;
-    margin-left: 0;
     padding-left: 0;
 }
 
@@ -104,11 +121,15 @@ ul {
     display: inline-block;
     font-weight: 400;
     font-size: 14px;
+    margin-right: 20px;
 }
 
 .akce {
+    width: 130px;
     background-color: #f15f42 ; 
-    border-radius: 30%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
 }
 .tlacitko {
     color: #FFFFFF;
@@ -116,10 +137,19 @@ ul {
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    padding: 1em;
 }
 
 .bota img {
     position: relative;
-    right: 120px;
-    top: 50px;
+    right: 110px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 500;
 }
